@@ -1,0 +1,411 @@
+*{margin: 0;}
+body{
+        font-family: "Madimi One", sans-serif;
+      
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 0px 8px black;
+
+}
+
+.nav .logo{
+    height: 100px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav .logo img{
+    height: 80px;
+    w
+}
+
+.nav .navtext{
+    height:100px;
+    width:60%;
+}
+
+.nav .navtext .navtext1{
+    height: 50px;
+    font-size: 25px;
+    color:#F23D92;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-family: "Madimi One", sans-serif;
+}
+
+.nav .navtext .navtext2{
+    width: 69%;
+    height: 50px;
+    font-family: "Madimi One", sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav .navtext .navtext2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.sec{
+    height: 600px;
+    width:100%;
+    background-image: url(./00375d_3025ee6ff2264ccda46da6dd9a1cb4cb~mv2.webp);
+    background-size: cover;
+}
+
+.thr{
+    height: 500px;
+    width: 100%;
+    background-color:rgba(208, 192, 192, 0.39);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+
+.thr .tbox{
+    height: 300px;
+    width: 400px;
+    background-color:rgba(238, 228, 228, 0.39);
+    
+}
+
+.button1{
+    background-color: #F23D92;
+    border-color: orangered;
+    border-radius: 25px;
+    width: 180px;
+    height: 40px;
+    font-size: 25px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    border: 2px solid orangered;  
+    transition: 0.2s;
+}
+.button1:hover{
+    background-color: #ea67a4;
+    border-radius: 20px;
+}
+.tbox{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Madimi One", sans-serif;
+    text-align: center;
+    color: #F23D92;
+}
+.thr .textbox{
+    background-image: url(./Store\ 1.webp),url(./Arrow\ 1.webp),url(./Building\ 1.webp),url(./Laptop\ 1.webp),url(./Point\ 1.webp);
+    background-position: 20px 60px,30px 200px,330px 38px,300px 200px,350px 130px;
+    background-size: 30px,30px,30px,30px,30px;
+    background-repeat: no-repeat;   
+}
+.thr .textbox1{
+    background-image: url(./Ice\ cream\ bowl.webp),url(./00375d_45d50ca69ab94f8891ed7f281f925bf4~mv2.webp),url(./Ice\ cream\ cup.webp),url(./Ice\ cream\ plate\ small.webp),url(./Ice\ cream\ plate.webp);
+    background-position: 23px 30px,25px 130px,40px 210px,320px 200px,340px 80px;
+    background-size: 25px,25px,25px,25px,30px,30px;
+    background-repeat: no-repeat;   
+}
+.thr .tbox p{
+    color: black;
+    
+}
+
+.thr .tbox a{
+    text-decoration: none;
+}
+
+.four{
+    height: 450px;
+    width: 100%;
+    display: flex;
+
+}
+
+.four .four1{
+    height: 450px;
+    width: 50%;
+    background-color:rgb(240, 240, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.four .four2{
+    height: 450px;
+    width: 50%;
+    background-image: url(./fourimag.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.four .four1 .fourtext h1{
+    color: #F23D92;
+    margin-bottom: 20px;
+
+}
+.four .four1 .fourtext p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+.four .four1 .fourtext{
+    height: 200px;
+    width:50%;
+    line-height: 25px;
+}
+.tastes{
+    text-decoration: underline;
+}
+
+.fifth{
+    height: 450px;
+    width: 100%;
+    display: flex;
+
+}
+.fifth .fifth1{
+    height: 500px;
+    width: 50%;
+    background-image: url(./fifthimag.webp);
+    background-size: cover;
+    background-position: center;
+}
+.fifth .fifth2{
+    height: 500px;
+    width: 50%;
+    background-color: rgb(240, 240, 237);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fifth .fifth2 .fifthtext{
+    height: 410px;
+    width: 460px;
+    
+}
+.fifthtext .fifthhead{
+    height:50px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-size: 30px;
+    color: #F23D92;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+.fifthtext .inside{
+    display: flex;
+}
+.fifthtext .inside .inside1{ 
+    height:350px;
+    width: 50%;
+    line-height: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fifthtext .inside .inside2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 50%;
+    margin-left: 10px;
+}
+
+.insidebox{
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    background-color:#F23D92;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 20px;
+    border: 2px solid orangered;
+    transition: 0.2s;
+}
+.insidebox:hover{
+    background-color:#ee549c;
+    border-radius:24px;
+
+}
+
+.insideancr{
+    text-decoration: none;
+    color: white;
+}
+
+.six{
+    background-color: rgb(247, 247, 243);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sixbox{
+    height: 400px;
+    width: 1000px;
+    margin-top: 50px;
+}
+
+.sixbox1{
+    display: block;
+    height: 50px;
+    color: #F23D92;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.sixbox2{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.sixbox .sixbox2 video{
+    height: 290px;
+    width: 500px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+
+}
+
+.sixbox3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.sixbox3 h1{
+    background-color: #F23D92;
+    width: 170px;
+    height: 50px;
+    color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    font-weight: lighter;
+    transition: 0.2s;
+}
+
+.sixbox3 h1:hover{
+    background-color: #ef71ac;
+}
+
+.sixbox3 a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.seven{
+    background-color: rgb(242, 241, 241);
+    height: 400px;
+    width: 100%;
+}
+.sevenbox{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.sevenbox1{
+    background-color: rgb(241, 241, 238);
+    height: 200px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.sevenbox2{
+    height: 200px;
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(233, 233, 227);
+
+}
+
+.sevenbox1 h1{
+    color: #F23D92;
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.minibar{
+    height:10px;
+    width: 60px;
+    background-color: rgb(38, 35, 35);
+    margin-bottom: 10px;
+}
+
+.sevenbox1 h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+.sevenbox2 h1{
+    color: #F23D92;
+    letter-spacing: 5px;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     
+}
+.sevenbox2 .miniimg img{
+    height: 40px;
+    width: 40px;
+    margin-right: 5px;
+}
+
+.finaltext{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 100%;
+}
+
+.sevenbox3{
+    height: 200px;
+    width: 64%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 11px;
+    padding-top: 10px;
+    font-weight: bold;
+    color: rgb(128, 128, 123);
+    
+}
